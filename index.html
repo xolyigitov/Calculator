@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="calculator-screen" disabled />
+        <div class="calculator-keys">
+            <button type="button" class="key" data-action="7">7</button>
+            <button type="button" class="key" data-action="8">8</button>
+            <button type="button" class="key" data-action="9">9</button>
+            <button type="button" class="key" data-action="add">+</button>
+
+            <button type="button" class="key" data-action="4">4</button>
+            <button type="button" class="key" data-action="5">5</button>
+            <button type="button" class="key" data-action="6">6</button>
+            <button type="button" class="key" data-action="subtract">-</button>
+
+            <button type="button" class="key" data-action="1">1</button>
+            <button type="button" class="key" data-action="2">2</button>
+            <button type="button" class="key" data-action="3">3</button>
+            <button type="button" class="key" data-action="multiply">×</button>
+
+            <button type="button" class="key" data-action="0">0</button>
+            <button type="button" class="key" data-action="decimal">.</button>
+            <button type="button" class="key" data-action="clear">C</button>
+            <button type="button" class="key" data-action="divide">÷</button>
+
+            <button type="button" class="key key-equal" data-action="calculate">=</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
